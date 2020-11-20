@@ -1,0 +1,419 @@
+2020-11-19 09:40:33.146  INFO 19148 --- [main] com.tedu.PageApplication                 : Starting PageApplication on chase with PID 19148 (D:\ProgramFile\JetBrains\Tedu-SSM\page\target\classes started by 15806 in D:\ProgramFile\JetBrains\Tedu-SSM\page)
+2020-11-19 09:40:33.146  INFO 19148 --- [main] com.tedu.PageApplication                 : No active profile set, falling back to default profiles: default
+2020-11-19 09:40:34.618  INFO 19148 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-11-19 09:40:34.640  INFO 19148 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-19 09:40:34.640  INFO 19148 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-19 09:40:34.756  INFO 19148 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-19 09:40:34.756  INFO 19148 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1540 ms
+2020-11-19 09:40:35.450  INFO 19148 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-19 09:40:35.681  INFO 19148 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-19 09:40:35.697  INFO 19148 --- [main] com.tedu.PageApplication                 : Started PageApplication in 3.186 seconds (JVM running for 4.806)
+2020-11-19 09:40:45.485  INFO 19148 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-19 09:40:45.485  INFO 19148 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-11-19 09:40:45.489  INFO 19148 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2020-11-19 09:40:45.730  INFO 19148 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-11-19 09:40:45.854  INFO 19148 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-11-19 09:40:45.861 DEBUG 19148 --- [http-nio-8080-exec-1] c.t.mapper.ItemMapper.selectByExample    : ==>  Preparing: select item_id, category_id, item_name, item_price, item_desc, item_image from item
+2020-11-19 09:40:45.882 DEBUG 19148 --- [http-nio-8080-exec-1] c.t.mapper.ItemMapper.selectByExample    : ==> Parameters: 
+2020-11-19 09:40:45.897 DEBUG 19148 --- [http-nio-8080-exec-1] c.t.mapper.ItemMapper.selectByExample    : <==      Total: 5
+2020-11-19 09:58:41.214  INFO 17420 --- [main] com.tedu.PageApplication                 : Starting PageApplication on chase with PID 17420 (D:\ProgramFile\JetBrains\Tedu-SSM\page\target\classes started by 15806 in D:\ProgramFile\JetBrains\Tedu-SSM\page)
+2020-11-19 09:58:41.218  INFO 17420 --- [main] com.tedu.PageApplication                 : No active profile set, falling back to default profiles: default
+2020-11-19 09:58:42.340  INFO 17420 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-11-19 09:58:42.348  INFO 17420 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-19 09:58:42.348  INFO 17420 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-19 09:58:42.515  INFO 17420 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-19 09:58:42.516  INFO 17420 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1244 ms
+2020-11-19 09:58:42.862  INFO 17420 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-19 09:58:43.089  INFO 17420 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-19 09:58:43.097  INFO 17420 --- [main] com.tedu.PageApplication                 : Started PageApplication in 2.372 seconds (JVM running for 3.342)
+2020-11-19 09:58:46.623  INFO 17420 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-19 09:58:46.624  INFO 17420 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-11-19 09:58:46.674  INFO 17420 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 49 ms
+2020-11-19 09:58:46.706  INFO 17420 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-11-19 09:58:46.827  INFO 17420 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-11-19 09:58:46.833 DEBUG 17420 --- [http-nio-8080-exec-1] c.tedu.mapper.ItemPageMapper.selectPage  : ==>  Preparing: select item_id, category_id, item_name, item_price, item_desc, item_image from item
+2020-11-19 09:58:46.852 DEBUG 17420 --- [http-nio-8080-exec-1] c.tedu.mapper.ItemPageMapper.selectPage  : ==> Parameters: 
+2020-11-19 09:58:46.870 DEBUG 17420 --- [http-nio-8080-exec-1] c.tedu.mapper.ItemPageMapper.selectPage  : <==      Total: 5
+2020-11-19 10:20:56.790  INFO 19028 --- [main] com.tedu.PageApplication                 : Starting PageApplication on chase with PID 19028 (D:\ProgramFile\JetBrains\Tedu-SSM\page\target\classes started by 15806 in D:\ProgramFile\JetBrains\Tedu-SSM\page)
+2020-11-19 10:20:56.792  INFO 19028 --- [main] com.tedu.PageApplication                 : No active profile set, falling back to default profiles: default
+2020-11-19 10:20:57.668  INFO 19028 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-11-19 10:20:57.675  INFO 19028 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-19 10:20:57.675  INFO 19028 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-19 10:20:57.768  INFO 19028 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-19 10:20:57.769  INFO 19028 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 929 ms
+2020-11-19 10:20:58.087  INFO 19028 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-19 10:20:58.288  INFO 19028 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-19 10:20:58.296  INFO 19028 --- [main] com.tedu.PageApplication                 : Started PageApplication in 1.901 seconds (JVM running for 2.832)
+2020-11-19 10:21:03.349  INFO 19028 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-19 10:21:03.350  INFO 19028 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-11-19 10:21:03.396  INFO 19028 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 46 ms
+2020-11-19 10:21:03.426  INFO 19028 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-11-19 10:21:03.515  INFO 19028 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-11-19 10:21:03.521 DEBUG 19028 --- [http-nio-8080-exec-1] c.tedu.mapper.ItemPageMapper.selectPage  : ==>  Preparing: select item_id, category_id, item_name, item_price, item_desc, item_image from item
+2020-11-19 10:21:03.539 DEBUG 19028 --- [http-nio-8080-exec-1] c.tedu.mapper.ItemPageMapper.selectPage  : ==> Parameters: 
+2020-11-19 10:21:03.555 DEBUG 19028 --- [http-nio-8080-exec-1] c.tedu.mapper.ItemPageMapper.selectPage  : <==      Total: 5
+2020-11-19 10:26:43.668  INFO 2988 --- [main] com.tedu.PageApplication                 : Starting PageApplication on chase with PID 2988 (D:\ProgramFile\JetBrains\Tedu-SSM\page\target\classes started by 15806 in D:\ProgramFile\JetBrains\Tedu-SSM\page)
+2020-11-19 10:26:43.671  INFO 2988 --- [main] com.tedu.PageApplication                 : No active profile set, falling back to default profiles: default
+2020-11-19 10:26:44.473  INFO 2988 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-11-19 10:26:44.480  INFO 2988 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-19 10:26:44.480  INFO 2988 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-19 10:26:44.569  INFO 2988 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-19 10:26:44.570  INFO 2988 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 856 ms
+2020-11-19 10:26:44.898  INFO 2988 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-19 10:26:45.144  INFO 2988 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-19 10:26:45.153  INFO 2988 --- [main] com.tedu.PageApplication                 : Started PageApplication in 1.858 seconds (JVM running for 2.8)
+2020-11-19 10:26:46.732  INFO 2988 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-19 10:26:46.732  INFO 2988 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-11-19 10:26:46.776  INFO 2988 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 44 ms
+2020-11-19 10:26:46.821  INFO 2988 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-11-19 10:26:46.912  INFO 2988 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-11-19 10:26:46.917 DEBUG 2988 --- [http-nio-8080-exec-1] c.t.m.ItemPageMapper.selectPage_COUNT    : ==>  Preparing: SELECT count(0) FROM item
+2020-11-19 10:26:46.936 DEBUG 2988 --- [http-nio-8080-exec-1] c.t.m.ItemPageMapper.selectPage_COUNT    : ==> Parameters: 
+2020-11-19 10:26:46.951 DEBUG 2988 --- [http-nio-8080-exec-1] c.t.m.ItemPageMapper.selectPage_COUNT    : <==      Total: 1
+2020-11-19 10:26:46.954 DEBUG 2988 --- [http-nio-8080-exec-1] c.tedu.mapper.ItemPageMapper.selectPage  : ==>  Preparing: select item_id, category_id, item_name, item_price, item_desc, item_image from item LIMIT ?, ?
+2020-11-19 10:26:46.955 DEBUG 2988 --- [http-nio-8080-exec-1] c.tedu.mapper.ItemPageMapper.selectPage  : ==> Parameters: 2(Integer), 2(Integer)
+2020-11-19 10:26:46.956 DEBUG 2988 --- [http-nio-8080-exec-1] c.tedu.mapper.ItemPageMapper.selectPage  : <==      Total: 2
+2020-11-19 10:35:07.567  INFO 8316 --- [main] com.tedu.PageApplication                 : Starting PageApplication on chase with PID 8316 (D:\ProgramFile\JetBrains\Tedu-SSM\page\target\classes started by 15806 in D:\ProgramFile\JetBrains\Tedu-SSM\page)
+2020-11-19 10:35:07.570  INFO 8316 --- [main] com.tedu.PageApplication                 : No active profile set, falling back to default profiles: default
+2020-11-19 10:35:08.410  INFO 8316 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-11-19 10:35:08.417  INFO 8316 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-19 10:35:08.417  INFO 8316 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-19 10:35:08.523  INFO 8316 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-19 10:35:08.524  INFO 8316 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 908 ms
+2020-11-19 10:35:08.892  INFO 8316 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-19 10:35:09.113  INFO 8316 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-19 10:35:09.122  INFO 8316 --- [main] com.tedu.PageApplication                 : Started PageApplication in 1.921 seconds (JVM running for 2.845)
+2020-11-19 10:35:17.395  INFO 8316 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-19 10:35:17.395  INFO 8316 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-11-19 10:35:17.438  INFO 8316 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 42 ms
+2020-11-19 10:35:17.591  INFO 8316 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-11-19 10:35:17.683  INFO 8316 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-11-19 10:35:17.688 DEBUG 8316 --- [http-nio-8080-exec-1] c.t.m.ItemPageMapper.selectPage_COUNT    : ==>  Preparing: SELECT count(0) FROM item
+2020-11-19 10:35:17.706 DEBUG 8316 --- [http-nio-8080-exec-1] c.t.m.ItemPageMapper.selectPage_COUNT    : ==> Parameters: 
+2020-11-19 10:35:17.721 DEBUG 8316 --- [http-nio-8080-exec-1] c.t.m.ItemPageMapper.selectPage_COUNT    : <==      Total: 1
+2020-11-19 10:35:17.723 DEBUG 8316 --- [http-nio-8080-exec-1] c.tedu.mapper.ItemPageMapper.selectPage  : ==>  Preparing: select item_id, category_id, item_name, item_price, item_desc, item_image from item LIMIT ?
+2020-11-19 10:35:17.724 DEBUG 8316 --- [http-nio-8080-exec-1] c.tedu.mapper.ItemPageMapper.selectPage  : ==> Parameters: 2(Integer)
+2020-11-19 10:35:17.726 DEBUG 8316 --- [http-nio-8080-exec-1] c.tedu.mapper.ItemPageMapper.selectPage  : <==      Total: 2
+2020-11-19 10:35:25.142 DEBUG 8316 --- [http-nio-8080-exec-2] c.t.m.ItemPageMapper.selectPage_COUNT    : ==>  Preparing: SELECT count(0) FROM item
+2020-11-19 10:35:25.142 DEBUG 8316 --- [http-nio-8080-exec-2] c.t.m.ItemPageMapper.selectPage_COUNT    : ==> Parameters: 
+2020-11-19 10:35:25.142 DEBUG 8316 --- [http-nio-8080-exec-2] c.t.m.ItemPageMapper.selectPage_COUNT    : <==      Total: 1
+2020-11-19 10:35:25.143 DEBUG 8316 --- [http-nio-8080-exec-2] c.tedu.mapper.ItemPageMapper.selectPage  : ==>  Preparing: select item_id, category_id, item_name, item_price, item_desc, item_image from item LIMIT ?, ?
+2020-11-19 10:35:25.144 DEBUG 8316 --- [http-nio-8080-exec-2] c.tedu.mapper.ItemPageMapper.selectPage  : ==> Parameters: 4(Integer), 2(Integer)
+2020-11-19 10:35:25.145 DEBUG 8316 --- [http-nio-8080-exec-2] c.tedu.mapper.ItemPageMapper.selectPage  : <==      Total: 1
+2020-11-19 10:35:38.625 DEBUG 8316 --- [http-nio-8080-exec-3] c.t.m.ItemPageMapper.selectPage_COUNT    : ==>  Preparing: SELECT count(0) FROM item
+2020-11-19 10:35:38.626 DEBUG 8316 --- [http-nio-8080-exec-3] c.t.m.ItemPageMapper.selectPage_COUNT    : ==> Parameters: 
+2020-11-19 10:35:38.627 DEBUG 8316 --- [http-nio-8080-exec-3] c.t.m.ItemPageMapper.selectPage_COUNT    : <==      Total: 1
+2020-11-19 10:35:38.628 DEBUG 8316 --- [http-nio-8080-exec-3] c.tedu.mapper.ItemPageMapper.selectPage  : ==>  Preparing: select item_id, category_id, item_name, item_price, item_desc, item_image from item LIMIT ?
+2020-11-19 10:35:38.629 DEBUG 8316 --- [http-nio-8080-exec-3] c.tedu.mapper.ItemPageMapper.selectPage  : ==> Parameters: 2(Integer)
+2020-11-19 10:35:38.631 DEBUG 8316 --- [http-nio-8080-exec-3] c.tedu.mapper.ItemPageMapper.selectPage  : <==      Total: 2
+2020-11-19 10:35:45.827 DEBUG 8316 --- [http-nio-8080-exec-4] c.t.m.ItemPageMapper.selectPage_COUNT    : ==>  Preparing: SELECT count(0) FROM item
+2020-11-19 10:35:45.827 DEBUG 8316 --- [http-nio-8080-exec-4] c.t.m.ItemPageMapper.selectPage_COUNT    : ==> Parameters: 
+2020-11-19 10:35:45.829 DEBUG 8316 --- [http-nio-8080-exec-4] c.t.m.ItemPageMapper.selectPage_COUNT    : <==      Total: 1
+2020-11-19 10:35:45.830 DEBUG 8316 --- [http-nio-8080-exec-4] c.tedu.mapper.ItemPageMapper.selectPage  : ==>  Preparing: select item_id, category_id, item_name, item_price, item_desc, item_image from item LIMIT ?
+2020-11-19 10:35:45.830 DEBUG 8316 --- [http-nio-8080-exec-4] c.tedu.mapper.ItemPageMapper.selectPage  : ==> Parameters: 2(Integer)
+2020-11-19 10:35:45.832 DEBUG 8316 --- [http-nio-8080-exec-4] c.tedu.mapper.ItemPageMapper.selectPage  : <==      Total: 2
+2020-11-19 10:35:56.059 DEBUG 8316 --- [http-nio-8080-exec-5] c.t.m.ItemPageMapper.selectPage_COUNT    : ==>  Preparing: SELECT count(0) FROM item
+2020-11-19 10:35:56.060 DEBUG 8316 --- [http-nio-8080-exec-5] c.t.m.ItemPageMapper.selectPage_COUNT    : ==> Parameters: 
+2020-11-19 10:35:56.060 DEBUG 8316 --- [http-nio-8080-exec-5] c.t.m.ItemPageMapper.selectPage_COUNT    : <==      Total: 1
+2020-11-19 10:35:56.061 DEBUG 8316 --- [http-nio-8080-exec-5] c.tedu.mapper.ItemPageMapper.selectPage  : ==>  Preparing: select item_id, category_id, item_name, item_price, item_desc, item_image from item LIMIT ?, ?
+2020-11-19 10:35:56.061 DEBUG 8316 --- [http-nio-8080-exec-5] c.tedu.mapper.ItemPageMapper.selectPage  : ==> Parameters: 2(Integer), 2(Integer)
+2020-11-19 10:35:56.062 DEBUG 8316 --- [http-nio-8080-exec-5] c.tedu.mapper.ItemPageMapper.selectPage  : <==      Total: 2
+2020-11-19 10:36:02.186 DEBUG 8316 --- [http-nio-8080-exec-6] c.t.m.ItemPageMapper.selectPage_COUNT    : ==>  Preparing: SELECT count(0) FROM item
+2020-11-19 10:36:02.187 DEBUG 8316 --- [http-nio-8080-exec-6] c.t.m.ItemPageMapper.selectPage_COUNT    : ==> Parameters: 
+2020-11-19 10:36:02.187 DEBUG 8316 --- [http-nio-8080-exec-6] c.t.m.ItemPageMapper.selectPage_COUNT    : <==      Total: 1
+2020-11-19 10:36:02.188 DEBUG 8316 --- [http-nio-8080-exec-6] c.tedu.mapper.ItemPageMapper.selectPage  : ==>  Preparing: select item_id, category_id, item_name, item_price, item_desc, item_image from item LIMIT ?, ?
+2020-11-19 10:36:02.189 DEBUG 8316 --- [http-nio-8080-exec-6] c.tedu.mapper.ItemPageMapper.selectPage  : ==> Parameters: 3(Integer), 3(Integer)
+2020-11-19 10:36:02.190 DEBUG 8316 --- [http-nio-8080-exec-6] c.tedu.mapper.ItemPageMapper.selectPage  : <==      Total: 2
+2020-11-19 10:36:24.444 DEBUG 8316 --- [http-nio-8080-exec-8] c.t.m.ItemPageMapper.selectPage_COUNT    : ==>  Preparing: SELECT count(0) FROM item
+2020-11-19 10:36:24.445 DEBUG 8316 --- [http-nio-8080-exec-8] c.t.m.ItemPageMapper.selectPage_COUNT    : ==> Parameters: 
+2020-11-19 10:36:24.446 DEBUG 8316 --- [http-nio-8080-exec-8] c.t.m.ItemPageMapper.selectPage_COUNT    : <==      Total: 1
+2020-11-19 10:36:24.447 DEBUG 8316 --- [http-nio-8080-exec-8] c.tedu.mapper.ItemPageMapper.selectPage  : ==>  Preparing: select item_id, category_id, item_name, item_price, item_desc, item_image from item LIMIT ?
+2020-11-19 10:36:24.447 DEBUG 8316 --- [http-nio-8080-exec-8] c.tedu.mapper.ItemPageMapper.selectPage  : ==> Parameters: 3(Integer)
+2020-11-19 10:36:24.448 DEBUG 8316 --- [http-nio-8080-exec-8] c.tedu.mapper.ItemPageMapper.selectPage  : <==      Total: 3
+2020-11-19 10:37:06.938 DEBUG 8316 --- [http-nio-8080-exec-10] c.t.m.ItemPageMapper.selectPage_COUNT    : ==>  Preparing: SELECT count(0) FROM item
+2020-11-19 10:37:06.939 DEBUG 8316 --- [http-nio-8080-exec-10] c.t.m.ItemPageMapper.selectPage_COUNT    : ==> Parameters: 
+2020-11-19 10:37:06.940 DEBUG 8316 --- [http-nio-8080-exec-10] c.t.m.ItemPageMapper.selectPage_COUNT    : <==      Total: 1
+2020-11-19 10:37:06.941 DEBUG 8316 --- [http-nio-8080-exec-10] c.tedu.mapper.ItemPageMapper.selectPage  : ==>  Preparing: select item_id, category_id, item_name, item_price, item_desc, item_image from item LIMIT ?, ?
+2020-11-19 10:37:06.942 DEBUG 8316 --- [http-nio-8080-exec-10] c.tedu.mapper.ItemPageMapper.selectPage  : ==> Parameters: 3(Integer), 3(Integer)
+2020-11-19 10:37:06.945 DEBUG 8316 --- [http-nio-8080-exec-10] c.tedu.mapper.ItemPageMapper.selectPage  : <==      Total: 2
+2020-11-19 10:38:37.848 DEBUG 8316 --- [http-nio-8080-exec-2] c.t.m.ItemPageMapper.selectPage_COUNT    : ==>  Preparing: SELECT count(0) FROM item
+2020-11-19 10:38:37.849 DEBUG 8316 --- [http-nio-8080-exec-2] c.t.m.ItemPageMapper.selectPage_COUNT    : ==> Parameters: 
+2020-11-19 10:38:37.850 DEBUG 8316 --- [http-nio-8080-exec-2] c.t.m.ItemPageMapper.selectPage_COUNT    : <==      Total: 1
+2020-11-19 10:38:37.851 DEBUG 8316 --- [http-nio-8080-exec-2] c.tedu.mapper.ItemPageMapper.selectPage  : ==>  Preparing: select item_id, category_id, item_name, item_price, item_desc, item_image from item LIMIT ?, ?
+2020-11-19 10:38:37.851 DEBUG 8316 --- [http-nio-8080-exec-2] c.tedu.mapper.ItemPageMapper.selectPage  : ==> Parameters: 3(Integer), 3(Integer)
+2020-11-19 10:38:37.853 DEBUG 8316 --- [http-nio-8080-exec-2] c.tedu.mapper.ItemPageMapper.selectPage  : <==      Total: 2
+2020-11-19 10:38:53.689 DEBUG 8316 --- [http-nio-8080-exec-3] c.t.m.ItemPageMapper.selectPage_COUNT    : ==>  Preparing: SELECT count(0) FROM item
+2020-11-19 10:38:53.689 DEBUG 8316 --- [http-nio-8080-exec-3] c.t.m.ItemPageMapper.selectPage_COUNT    : ==> Parameters: 
+2020-11-19 10:38:53.690 DEBUG 8316 --- [http-nio-8080-exec-3] c.t.m.ItemPageMapper.selectPage_COUNT    : <==      Total: 1
+2020-11-19 10:38:53.691 DEBUG 8316 --- [http-nio-8080-exec-3] c.tedu.mapper.ItemPageMapper.selectPage  : ==>  Preparing: select item_id, category_id, item_name, item_price, item_desc, item_image from item LIMIT ?, ?
+2020-11-19 10:38:53.692 DEBUG 8316 --- [http-nio-8080-exec-3] c.tedu.mapper.ItemPageMapper.selectPage  : ==> Parameters: 2(Integer), 1(Integer)
+2020-11-19 10:38:53.693 DEBUG 8316 --- [http-nio-8080-exec-3] c.tedu.mapper.ItemPageMapper.selectPage  : <==      Total: 1
+2020-11-19 10:39:01.863 DEBUG 8316 --- [http-nio-8080-exec-4] c.t.m.ItemPageMapper.selectPage_COUNT    : ==>  Preparing: SELECT count(0) FROM item
+2020-11-19 10:39:01.864 DEBUG 8316 --- [http-nio-8080-exec-4] c.t.m.ItemPageMapper.selectPage_COUNT    : ==> Parameters: 
+2020-11-19 10:39:01.865 DEBUG 8316 --- [http-nio-8080-exec-4] c.t.m.ItemPageMapper.selectPage_COUNT    : <==      Total: 1
+2020-11-19 10:39:01.866 DEBUG 8316 --- [http-nio-8080-exec-4] c.tedu.mapper.ItemPageMapper.selectPage  : ==>  Preparing: select item_id, category_id, item_name, item_price, item_desc, item_image from item LIMIT ?, ?
+2020-11-19 10:39:01.866 DEBUG 8316 --- [http-nio-8080-exec-4] c.tedu.mapper.ItemPageMapper.selectPage  : ==> Parameters: 4(Integer), 2(Integer)
+2020-11-19 10:39:01.867 DEBUG 8316 --- [http-nio-8080-exec-4] c.tedu.mapper.ItemPageMapper.selectPage  : <==      Total: 1
+2020-11-19 10:43:25.352  INFO 10272 --- [main] com.tedu.PageApplication                 : Starting PageApplication on chase with PID 10272 (D:\ProgramFile\JetBrains\Tedu-SSM\page\target\classes started by 15806 in D:\ProgramFile\JetBrains\Tedu-SSM\page)
+2020-11-19 10:43:25.355  INFO 10272 --- [main] com.tedu.PageApplication                 : No active profile set, falling back to default profiles: default
+2020-11-19 10:43:26.307  INFO 10272 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-11-19 10:43:26.316  INFO 10272 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-19 10:43:26.316  INFO 10272 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-19 10:43:26.421  INFO 10272 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-19 10:43:26.421  INFO 10272 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1013 ms
+2020-11-19 10:43:26.873  INFO 10272 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-19 10:43:27.117  INFO 10272 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-19 10:43:27.131  INFO 10272 --- [main] com.tedu.PageApplication                 : Started PageApplication in 2.196 seconds (JVM running for 4.022)
+2020-11-19 10:43:38.649  INFO 10272 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-19 10:43:38.650  INFO 10272 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-11-19 10:43:38.655  INFO 10272 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2020-11-19 10:43:38.718  INFO 10272 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-11-19 10:43:38.830  INFO 10272 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-11-19 10:43:38.836 DEBUG 10272 --- [http-nio-8080-exec-1] c.t.m.ItemPageMapper.selectPage_COUNT    : ==>  Preparing: SELECT count(0) FROM item
+2020-11-19 10:43:38.856 DEBUG 10272 --- [http-nio-8080-exec-1] c.t.m.ItemPageMapper.selectPage_COUNT    : ==> Parameters: 
+2020-11-19 10:43:38.876 DEBUG 10272 --- [http-nio-8080-exec-1] c.t.m.ItemPageMapper.selectPage_COUNT    : <==      Total: 1
+2020-11-19 10:43:38.880 DEBUG 10272 --- [http-nio-8080-exec-1] c.tedu.mapper.ItemPageMapper.selectPage  : ==>  Preparing: select item_id, category_id, item_name, item_price, item_desc, item_image from item LIMIT ?, ?
+2020-11-19 10:43:38.881 DEBUG 10272 --- [http-nio-8080-exec-1] c.tedu.mapper.ItemPageMapper.selectPage  : ==> Parameters: 4(Integer), 2(Integer)
+2020-11-19 10:43:38.882 DEBUG 10272 --- [http-nio-8080-exec-1] c.tedu.mapper.ItemPageMapper.selectPage  : <==      Total: 1
+2020-11-19 10:44:07.020  WARN 10272 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=58s191ms173µs700ns).
+2020-11-19 10:45:38.673  WARN 10272 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m31s652ms679µs800ns).
+2020-11-19 10:46:01.944  INFO 10272 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-19 10:46:01.944  INFO 10272 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-11-19 10:46:01.950  INFO 10272 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-11-19 10:46:05.393  INFO 12816 --- [main] com.tedu.PageApplication                 : Starting PageApplication on chase with PID 12816 (D:\ProgramFile\JetBrains\Tedu-SSM\page\target\classes started by 15806 in D:\ProgramFile\JetBrains\Tedu-SSM\page)
+2020-11-19 10:46:05.397  INFO 12816 --- [main] com.tedu.PageApplication                 : No active profile set, falling back to default profiles: default
+2020-11-19 10:46:06.348  INFO 12816 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-11-19 10:46:06.356  INFO 12816 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-19 10:46:06.356  INFO 12816 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-19 10:46:06.460  INFO 12816 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-19 10:46:06.460  INFO 12816 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1000 ms
+2020-11-19 10:46:06.885  INFO 12816 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-19 10:46:07.143  INFO 12816 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-19 10:46:07.154  INFO 12816 --- [main] com.tedu.PageApplication                 : Started PageApplication in 2.293 seconds (JVM running for 3.534)
+2020-11-19 10:46:17.259  INFO 12816 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-19 10:46:17.260  INFO 12816 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-11-19 10:46:17.265  INFO 12816 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2020-11-19 10:46:17.328  INFO 12816 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-11-19 10:46:17.442  INFO 12816 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-11-19 10:46:17.448 DEBUG 12816 --- [http-nio-8080-exec-1] c.t.m.ItemPageMapper.selectPage_COUNT    : ==>  Preparing: SELECT count(0) FROM item
+2020-11-19 10:46:17.468 DEBUG 12816 --- [http-nio-8080-exec-1] c.t.m.ItemPageMapper.selectPage_COUNT    : ==> Parameters: 
+2020-11-19 10:46:17.486 DEBUG 12816 --- [http-nio-8080-exec-1] c.t.m.ItemPageMapper.selectPage_COUNT    : <==      Total: 1
+2020-11-19 10:46:17.490 DEBUG 12816 --- [http-nio-8080-exec-1] c.tedu.mapper.ItemPageMapper.selectPage  : ==>  Preparing: select item_id, category_id, item_name, item_price, item_desc, item_image from item LIMIT ?, ?
+2020-11-19 10:46:17.491 DEBUG 12816 --- [http-nio-8080-exec-1] c.tedu.mapper.ItemPageMapper.selectPage  : ==> Parameters: 4(Integer), 2(Integer)
+2020-11-19 10:46:17.492 DEBUG 12816 --- [http-nio-8080-exec-1] c.tedu.mapper.ItemPageMapper.selectPage  : <==      Total: 1
+2020-11-19 10:46:38.175  WARN 12816 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=50s733ms567µs800ns).
+2020-11-19 10:57:47.111  INFO 12816 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-19 10:57:47.112  INFO 12816 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-11-19 10:57:47.124  INFO 12816 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-11-19 10:57:51.105  INFO 6220 --- [main] com.tedu.PageApplication                 : Starting PageApplication on chase with PID 6220 (D:\ProgramFile\JetBrains\Tedu-SSM\page\target\classes started by 15806 in D:\ProgramFile\JetBrains\Tedu-SSM\page)
+2020-11-19 10:57:51.109  INFO 6220 --- [main] com.tedu.PageApplication                 : No active profile set, falling back to default profiles: default
+2020-11-19 10:57:52.023  INFO 6220 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-11-19 10:57:52.031  INFO 6220 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-19 10:57:52.031  INFO 6220 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-19 10:57:52.120  INFO 6220 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-19 10:57:52.121  INFO 6220 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 961 ms
+2020-11-19 10:57:52.475  INFO 6220 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-19 10:57:52.748  INFO 6220 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-19 10:57:52.758  INFO 6220 --- [main] com.tedu.PageApplication                 : Started PageApplication in 2.036 seconds (JVM running for 2.964)
+2020-11-19 10:57:58.593  INFO 6220 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-19 10:57:58.593  INFO 6220 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-11-19 10:57:58.600  INFO 6220 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2020-11-19 10:57:58.654  INFO 6220 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-11-19 10:57:58.748  INFO 6220 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-11-19 10:57:58.754 DEBUG 6220 --- [http-nio-8080-exec-1] c.t.m.ItemPageMapper.selectPage_COUNT    : ==>  Preparing: SELECT count(0) FROM item
+2020-11-19 10:57:58.772 DEBUG 6220 --- [http-nio-8080-exec-1] c.t.m.ItemPageMapper.selectPage_COUNT    : ==> Parameters: 
+2020-11-19 10:57:58.788 DEBUG 6220 --- [http-nio-8080-exec-1] c.t.m.ItemPageMapper.selectPage_COUNT    : <==      Total: 1
+2020-11-19 10:57:58.791 DEBUG 6220 --- [http-nio-8080-exec-1] c.tedu.mapper.ItemPageMapper.selectPage  : ==>  Preparing: select item_id, category_id, item_name, item_price, item_desc, item_image from item LIMIT ?
+2020-11-19 10:57:58.791 DEBUG 6220 --- [http-nio-8080-exec-1] c.tedu.mapper.ItemPageMapper.selectPage  : ==> Parameters: 2(Integer)
+2020-11-19 10:57:58.793 DEBUG 6220 --- [http-nio-8080-exec-1] c.tedu.mapper.ItemPageMapper.selectPage  : <==      Total: 2
+2020-11-19 11:06:01.266  INFO 11088 --- [main] com.tedu.PageApplication                 : Starting PageApplication on chase with PID 11088 (D:\ProgramFile\JetBrains\Tedu-SSM\page\target\classes started by 15806 in D:\ProgramFile\JetBrains\Tedu-SSM\page)
+2020-11-19 11:06:01.270  INFO 11088 --- [main] com.tedu.PageApplication                 : No active profile set, falling back to default profiles: default
+2020-11-19 11:06:02.251  INFO 11088 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-11-19 11:06:02.260  INFO 11088 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-19 11:06:02.260  INFO 11088 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-19 11:06:02.367  INFO 11088 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-19 11:06:02.367  INFO 11088 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1030 ms
+2020-11-19 11:06:02.753  INFO 11088 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-19 11:06:03.021  INFO 11088 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-19 11:06:03.033  INFO 11088 --- [main] com.tedu.PageApplication                 : Started PageApplication in 2.313 seconds (JVM running for 3.551)
+2020-11-19 11:06:06.334  INFO 11088 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-19 11:06:06.334  INFO 11088 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-11-19 11:06:06.339  INFO 11088 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2020-11-19 11:06:48.953  INFO 11088 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-11-19 11:06:49.416  INFO 11088 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-11-19 11:06:49.477 DEBUG 11088 --- [http-nio-8080-exec-1] c.t.m.ItemPageMapper.selectPage_COUNT    : ==>  Preparing: SELECT count(0) FROM item
+2020-11-19 11:06:49.733 DEBUG 11088 --- [http-nio-8080-exec-1] c.t.m.ItemPageMapper.selectPage_COUNT    : ==> Parameters: 
+2020-11-19 11:06:49.936 DEBUG 11088 --- [http-nio-8080-exec-1] c.t.m.ItemPageMapper.selectPage_COUNT    : <==      Total: 1
+2020-11-19 11:06:49.948 DEBUG 11088 --- [http-nio-8080-exec-1] c.tedu.mapper.ItemPageMapper.selectPage  : ==>  Preparing: select item_id, category_id, item_name, item_price, item_desc, item_image from item LIMIT ?, ?
+2020-11-19 11:06:49.949 DEBUG 11088 --- [http-nio-8080-exec-1] c.tedu.mapper.ItemPageMapper.selectPage  : ==> Parameters: 4(Integer), 2(Integer)
+2020-11-19 11:06:49.954 DEBUG 11088 --- [http-nio-8080-exec-1] c.tedu.mapper.ItemPageMapper.selectPage  : <==      Total: 1
+2020-11-19 11:10:20.955  WARN 11088 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m31s437ms706µs).
+2020-11-19 11:10:21.400  INFO 11088 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-19 11:10:21.401  INFO 11088 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-11-19 11:10:21.411  INFO 11088 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-11-19 11:10:25.217  INFO 7416 --- [main] com.tedu.PageApplication                 : Starting PageApplication on chase with PID 7416 (D:\ProgramFile\JetBrains\Tedu-SSM\page\target\classes started by 15806 in D:\ProgramFile\JetBrains\Tedu-SSM\page)
+2020-11-19 11:10:25.221  INFO 7416 --- [main] com.tedu.PageApplication                 : No active profile set, falling back to default profiles: default
+2020-11-19 11:10:26.042  INFO 7416 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-11-19 11:10:26.049  INFO 7416 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-19 11:10:26.049  INFO 7416 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-19 11:10:26.143  INFO 7416 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-19 11:10:26.143  INFO 7416 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 873 ms
+2020-11-19 11:10:26.454  INFO 7416 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-19 11:10:26.661  INFO 7416 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-19 11:10:26.669  INFO 7416 --- [main] com.tedu.PageApplication                 : Started PageApplication in 1.842 seconds (JVM running for 2.795)
+2020-11-19 11:22:20.963  INFO 7416 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-19 11:22:20.963  INFO 7416 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-11-19 11:22:20.971  INFO 7416 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2020-11-19 11:22:21.031  INFO 7416 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-11-19 11:22:21.126  INFO 7416 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-11-19 11:22:21.132 DEBUG 7416 --- [http-nio-8080-exec-1] c.t.m.ItemPageMapper.selectPage_COUNT    : ==>  Preparing: SELECT count(0) FROM item
+2020-11-19 11:22:21.152 DEBUG 7416 --- [http-nio-8080-exec-1] c.t.m.ItemPageMapper.selectPage_COUNT    : ==> Parameters: 
+2020-11-19 11:22:21.169 DEBUG 7416 --- [http-nio-8080-exec-1] c.t.m.ItemPageMapper.selectPage_COUNT    : <==      Total: 1
+2020-11-19 11:22:21.174 DEBUG 7416 --- [http-nio-8080-exec-1] c.tedu.mapper.ItemPageMapper.selectPage  : ==>  Preparing: select item_id, category_id, item_name, item_price, item_desc, item_image from item LIMIT ?
+2020-11-19 11:22:21.175 DEBUG 7416 --- [http-nio-8080-exec-1] c.tedu.mapper.ItemPageMapper.selectPage  : ==> Parameters: 2(Integer)
+2020-11-19 11:22:21.176 DEBUG 7416 --- [http-nio-8080-exec-1] c.tedu.mapper.ItemPageMapper.selectPage  : <==      Total: 2
+2020-11-19 11:24:00.940 DEBUG 7416 --- [http-nio-8080-exec-3] c.t.m.ItemPageMapper.selectPage_COUNT    : ==>  Preparing: SELECT count(0) FROM item
+2020-11-19 11:24:00.941 DEBUG 7416 --- [http-nio-8080-exec-3] c.t.m.ItemPageMapper.selectPage_COUNT    : ==> Parameters: 
+2020-11-19 11:24:00.942 DEBUG 7416 --- [http-nio-8080-exec-3] c.t.m.ItemPageMapper.selectPage_COUNT    : <==      Total: 1
+2020-11-19 11:24:00.943 DEBUG 7416 --- [http-nio-8080-exec-3] c.tedu.mapper.ItemPageMapper.selectPage  : ==>  Preparing: select item_id, category_id, item_name, item_price, item_desc, item_image from item LIMIT ?
+2020-11-19 11:24:00.943 DEBUG 7416 --- [http-nio-8080-exec-3] c.tedu.mapper.ItemPageMapper.selectPage  : ==> Parameters: 2(Integer)
+2020-11-19 11:24:00.944 DEBUG 7416 --- [http-nio-8080-exec-3] c.tedu.mapper.ItemPageMapper.selectPage  : <==      Total: 2
+2020-11-19 11:32:41.700 DEBUG 7416 --- [http-nio-8080-exec-4] c.t.m.ItemPageMapper.selectPage_COUNT    : ==>  Preparing: SELECT count(0) FROM item
+2020-11-19 11:32:41.701 DEBUG 7416 --- [http-nio-8080-exec-4] c.t.m.ItemPageMapper.selectPage_COUNT    : ==> Parameters: 
+2020-11-19 11:32:41.703 DEBUG 7416 --- [http-nio-8080-exec-4] c.t.m.ItemPageMapper.selectPage_COUNT    : <==      Total: 1
+2020-11-19 11:32:41.705 DEBUG 7416 --- [http-nio-8080-exec-4] c.tedu.mapper.ItemPageMapper.selectPage  : ==>  Preparing: select item_id, category_id, item_name, item_price, item_desc, item_image from item LIMIT ?
+2020-11-19 11:32:41.705 DEBUG 7416 --- [http-nio-8080-exec-4] c.tedu.mapper.ItemPageMapper.selectPage  : ==> Parameters: 2(Integer)
+2020-11-19 11:32:41.708 DEBUG 7416 --- [http-nio-8080-exec-4] c.tedu.mapper.ItemPageMapper.selectPage  : <==      Total: 2
+2020-11-19 11:32:41.805 DEBUG 7416 --- [http-nio-8080-exec-8] c.t.m.ItemPageMapper.selectPage_COUNT    : ==>  Preparing: SELECT count(0) FROM item
+2020-11-19 11:32:41.806 DEBUG 7416 --- [http-nio-8080-exec-8] c.t.m.ItemPageMapper.selectPage_COUNT    : ==> Parameters: 
+2020-11-19 11:32:41.809 DEBUG 7416 --- [http-nio-8080-exec-8] c.t.m.ItemPageMapper.selectPage_COUNT    : <==      Total: 1
+2020-11-19 11:32:41.809 DEBUG 7416 --- [http-nio-8080-exec-8] c.tedu.mapper.ItemPageMapper.selectPage  : ==>  Preparing: select item_id, category_id, item_name, item_price, item_desc, item_image from item LIMIT ?
+2020-11-19 11:32:41.810 DEBUG 7416 --- [http-nio-8080-exec-8] c.tedu.mapper.ItemPageMapper.selectPage  : ==> Parameters: 2(Integer)
+2020-11-19 11:32:41.811 DEBUG 7416 --- [http-nio-8080-exec-8] c.tedu.mapper.ItemPageMapper.selectPage  : <==      Total: 2
+2020-11-19 11:32:41.817 DEBUG 7416 --- [http-nio-8080-exec-9] c.t.m.ItemPageMapper.selectPage_COUNT    : ==>  Preparing: SELECT count(0) FROM item
+2020-11-19 11:32:41.818 DEBUG 7416 --- [http-nio-8080-exec-9] c.t.m.ItemPageMapper.selectPage_COUNT    : ==> Parameters: 
+2020-11-19 11:32:41.818 DEBUG 7416 --- [http-nio-8080-exec-9] c.t.m.ItemPageMapper.selectPage_COUNT    : <==      Total: 1
+2020-11-19 11:32:41.819 DEBUG 7416 --- [http-nio-8080-exec-9] c.tedu.mapper.ItemPageMapper.selectPage  : ==>  Preparing: select item_id, category_id, item_name, item_price, item_desc, item_image from item LIMIT ?
+2020-11-19 11:32:41.820 DEBUG 7416 --- [http-nio-8080-exec-9] c.tedu.mapper.ItemPageMapper.selectPage  : ==> Parameters: 2(Integer)
+2020-11-19 11:32:41.822 DEBUG 7416 --- [http-nio-8080-exec-9] c.tedu.mapper.ItemPageMapper.selectPage  : <==      Total: 2
+2020-11-19 11:33:10.778 DEBUG 7416 --- [http-nio-8080-exec-1] c.t.m.ItemPageMapper.selectPage_COUNT    : ==>  Preparing: SELECT count(0) FROM item
+2020-11-19 11:33:10.779 DEBUG 7416 --- [http-nio-8080-exec-1] c.t.m.ItemPageMapper.selectPage_COUNT    : ==> Parameters: 
+2020-11-19 11:33:10.780 DEBUG 7416 --- [http-nio-8080-exec-1] c.t.m.ItemPageMapper.selectPage_COUNT    : <==      Total: 1
+2020-11-19 11:33:10.781 DEBUG 7416 --- [http-nio-8080-exec-1] c.tedu.mapper.ItemPageMapper.selectPage  : ==>  Preparing: select item_id, category_id, item_name, item_price, item_desc, item_image from item LIMIT ?
+2020-11-19 11:33:10.781 DEBUG 7416 --- [http-nio-8080-exec-1] c.tedu.mapper.ItemPageMapper.selectPage  : ==> Parameters: 2(Integer)
+2020-11-19 11:33:10.782 DEBUG 7416 --- [http-nio-8080-exec-1] c.tedu.mapper.ItemPageMapper.selectPage  : <==      Total: 2
+2020-11-19 11:34:28.513 DEBUG 7416 --- [http-nio-8080-exec-7] c.t.m.ItemPageMapper.selectPage_COUNT    : ==>  Preparing: SELECT count(0) FROM item
+2020-11-19 11:34:28.514 DEBUG 7416 --- [http-nio-8080-exec-7] c.t.m.ItemPageMapper.selectPage_COUNT    : ==> Parameters: 
+2020-11-19 11:34:28.515 DEBUG 7416 --- [http-nio-8080-exec-7] c.t.m.ItemPageMapper.selectPage_COUNT    : <==      Total: 1
+2020-11-19 11:34:28.516 DEBUG 7416 --- [http-nio-8080-exec-7] c.tedu.mapper.ItemPageMapper.selectPage  : ==>  Preparing: select item_id, category_id, item_name, item_price, item_desc, item_image from item LIMIT ?
+2020-11-19 11:34:28.517 DEBUG 7416 --- [http-nio-8080-exec-7] c.tedu.mapper.ItemPageMapper.selectPage  : ==> Parameters: 2(Integer)
+2020-11-19 11:34:28.519 DEBUG 7416 --- [http-nio-8080-exec-7] c.tedu.mapper.ItemPageMapper.selectPage  : <==      Total: 2
+2020-11-19 11:34:50.495 DEBUG 7416 --- [http-nio-8080-exec-3] c.t.m.ItemPageMapper.selectPage_COUNT    : ==>  Preparing: SELECT count(0) FROM item
+2020-11-19 11:34:50.495 DEBUG 7416 --- [http-nio-8080-exec-3] c.t.m.ItemPageMapper.selectPage_COUNT    : ==> Parameters: 
+2020-11-19 11:34:50.496 DEBUG 7416 --- [http-nio-8080-exec-3] c.t.m.ItemPageMapper.selectPage_COUNT    : <==      Total: 1
+2020-11-19 11:34:50.497 DEBUG 7416 --- [http-nio-8080-exec-3] c.tedu.mapper.ItemPageMapper.selectPage  : ==>  Preparing: select item_id, category_id, item_name, item_price, item_desc, item_image from item LIMIT ?
+2020-11-19 11:34:50.498 DEBUG 7416 --- [http-nio-8080-exec-3] c.tedu.mapper.ItemPageMapper.selectPage  : ==> Parameters: 2(Integer)
+2020-11-19 11:34:50.502 DEBUG 7416 --- [http-nio-8080-exec-3] c.tedu.mapper.ItemPageMapper.selectPage  : <==      Total: 2
+2020-11-19 11:36:28.788 DEBUG 7416 --- [http-nio-8080-exec-4] c.t.m.ItemPageMapper.selectPage_COUNT    : ==>  Preparing: SELECT count(0) FROM item
+2020-11-19 11:36:28.789 DEBUG 7416 --- [http-nio-8080-exec-4] c.t.m.ItemPageMapper.selectPage_COUNT    : ==> Parameters: 
+2020-11-19 11:36:28.790 DEBUG 7416 --- [http-nio-8080-exec-4] c.t.m.ItemPageMapper.selectPage_COUNT    : <==      Total: 1
+2020-11-19 11:36:28.791 DEBUG 7416 --- [http-nio-8080-exec-4] c.tedu.mapper.ItemPageMapper.selectPage  : ==>  Preparing: select item_id, category_id, item_name, item_price, item_desc, item_image from item LIMIT ?
+2020-11-19 11:36:28.792 DEBUG 7416 --- [http-nio-8080-exec-4] c.tedu.mapper.ItemPageMapper.selectPage  : ==> Parameters: 2(Integer)
+2020-11-19 11:36:28.793 DEBUG 7416 --- [http-nio-8080-exec-4] c.tedu.mapper.ItemPageMapper.selectPage  : <==      Total: 2
+2020-11-19 11:36:30.076 DEBUG 7416 --- [http-nio-8080-exec-8] c.t.m.ItemPageMapper.selectPage_COUNT    : ==>  Preparing: SELECT count(0) FROM item
+2020-11-19 11:36:30.076 DEBUG 7416 --- [http-nio-8080-exec-8] c.t.m.ItemPageMapper.selectPage_COUNT    : ==> Parameters: 
+2020-11-19 11:36:30.077 DEBUG 7416 --- [http-nio-8080-exec-8] c.t.m.ItemPageMapper.selectPage_COUNT    : <==      Total: 1
+2020-11-19 11:36:30.078 DEBUG 7416 --- [http-nio-8080-exec-8] c.tedu.mapper.ItemPageMapper.selectPage  : ==>  Preparing: select item_id, category_id, item_name, item_price, item_desc, item_image from item LIMIT ?, ?
+2020-11-19 11:36:30.079 DEBUG 7416 --- [http-nio-8080-exec-8] c.tedu.mapper.ItemPageMapper.selectPage  : ==> Parameters: 2(Integer), 2(Integer)
+2020-11-19 11:36:30.080 DEBUG 7416 --- [http-nio-8080-exec-8] c.tedu.mapper.ItemPageMapper.selectPage  : <==      Total: 2
+2020-11-19 11:36:32.901 DEBUG 7416 --- [http-nio-8080-exec-9] c.t.m.ItemPageMapper.selectPage_COUNT    : ==>  Preparing: SELECT count(0) FROM item
+2020-11-19 11:36:32.902 DEBUG 7416 --- [http-nio-8080-exec-9] c.t.m.ItemPageMapper.selectPage_COUNT    : ==> Parameters: 
+2020-11-19 11:36:32.903 DEBUG 7416 --- [http-nio-8080-exec-9] c.t.m.ItemPageMapper.selectPage_COUNT    : <==      Total: 1
+2020-11-19 11:36:32.903 DEBUG 7416 --- [http-nio-8080-exec-9] c.tedu.mapper.ItemPageMapper.selectPage  : ==>  Preparing: select item_id, category_id, item_name, item_price, item_desc, item_image from item LIMIT ?, ?
+2020-11-19 11:36:32.904 DEBUG 7416 --- [http-nio-8080-exec-9] c.tedu.mapper.ItemPageMapper.selectPage  : ==> Parameters: 4(Integer), 2(Integer)
+2020-11-19 11:36:32.905 DEBUG 7416 --- [http-nio-8080-exec-9] c.tedu.mapper.ItemPageMapper.selectPage  : <==      Total: 1
+2020-11-19 11:36:34.970 DEBUG 7416 --- [http-nio-8080-exec-10] c.t.m.ItemPageMapper.selectPage_COUNT    : ==>  Preparing: SELECT count(0) FROM item
+2020-11-19 11:36:34.971 DEBUG 7416 --- [http-nio-8080-exec-10] c.t.m.ItemPageMapper.selectPage_COUNT    : ==> Parameters: 
+2020-11-19 11:36:34.971 DEBUG 7416 --- [http-nio-8080-exec-10] c.t.m.ItemPageMapper.selectPage_COUNT    : <==      Total: 1
+2020-11-19 11:36:34.972 DEBUG 7416 --- [http-nio-8080-exec-10] c.tedu.mapper.ItemPageMapper.selectPage  : ==>  Preparing: select item_id, category_id, item_name, item_price, item_desc, item_image from item LIMIT ?, ?
+2020-11-19 11:36:34.973 DEBUG 7416 --- [http-nio-8080-exec-10] c.tedu.mapper.ItemPageMapper.selectPage  : ==> Parameters: 4(Integer), 2(Integer)
+2020-11-19 11:36:34.975 DEBUG 7416 --- [http-nio-8080-exec-10] c.tedu.mapper.ItemPageMapper.selectPage  : <==      Total: 1
+2020-11-19 11:36:37.713 DEBUG 7416 --- [http-nio-8080-exec-1] c.t.m.ItemPageMapper.selectPage_COUNT    : ==>  Preparing: SELECT count(0) FROM item
+2020-11-19 11:36:37.714 DEBUG 7416 --- [http-nio-8080-exec-1] c.t.m.ItemPageMapper.selectPage_COUNT    : ==> Parameters: 
+2020-11-19 11:36:37.714 DEBUG 7416 --- [http-nio-8080-exec-1] c.t.m.ItemPageMapper.selectPage_COUNT    : <==      Total: 1
+2020-11-19 11:36:37.715 DEBUG 7416 --- [http-nio-8080-exec-1] c.tedu.mapper.ItemPageMapper.selectPage  : ==>  Preparing: select item_id, category_id, item_name, item_price, item_desc, item_image from item LIMIT ?, ?
+2020-11-19 11:36:37.716 DEBUG 7416 --- [http-nio-8080-exec-1] c.tedu.mapper.ItemPageMapper.selectPage  : ==> Parameters: 2(Integer), 2(Integer)
+2020-11-19 11:36:37.717 DEBUG 7416 --- [http-nio-8080-exec-1] c.tedu.mapper.ItemPageMapper.selectPage  : <==      Total: 2
+2020-11-19 11:38:42.139 DEBUG 7416 --- [http-nio-8080-exec-7] c.t.m.ItemPageMapper.selectPage_COUNT    : ==>  Preparing: SELECT count(0) FROM item
+2020-11-19 11:38:42.139 DEBUG 7416 --- [http-nio-8080-exec-7] c.t.m.ItemPageMapper.selectPage_COUNT    : ==> Parameters: 
+2020-11-19 11:38:42.140 DEBUG 7416 --- [http-nio-8080-exec-7] c.t.m.ItemPageMapper.selectPage_COUNT    : <==      Total: 1
+2020-11-19 11:38:42.141 DEBUG 7416 --- [http-nio-8080-exec-7] c.tedu.mapper.ItemPageMapper.selectPage  : ==>  Preparing: select item_id, category_id, item_name, item_price, item_desc, item_image from item LIMIT ?
+2020-11-19 11:38:42.141 DEBUG 7416 --- [http-nio-8080-exec-7] c.tedu.mapper.ItemPageMapper.selectPage  : ==> Parameters: 2(Integer)
+2020-11-19 11:38:42.142 DEBUG 7416 --- [http-nio-8080-exec-7] c.tedu.mapper.ItemPageMapper.selectPage  : <==      Total: 2
+2020-11-19 11:38:44.720 DEBUG 7416 --- [http-nio-8080-exec-5] c.t.m.ItemPageMapper.selectPage_COUNT    : ==>  Preparing: SELECT count(0) FROM item
+2020-11-19 11:38:44.721 DEBUG 7416 --- [http-nio-8080-exec-5] c.t.m.ItemPageMapper.selectPage_COUNT    : ==> Parameters: 
+2020-11-19 11:38:44.721 DEBUG 7416 --- [http-nio-8080-exec-5] c.t.m.ItemPageMapper.selectPage_COUNT    : <==      Total: 1
+2020-11-19 11:38:44.722 DEBUG 7416 --- [http-nio-8080-exec-5] c.tedu.mapper.ItemPageMapper.selectPage  : ==>  Preparing: select item_id, category_id, item_name, item_price, item_desc, item_image from item LIMIT ?
+2020-11-19 11:38:44.722 DEBUG 7416 --- [http-nio-8080-exec-5] c.tedu.mapper.ItemPageMapper.selectPage  : ==> Parameters: 2(Integer)
+2020-11-19 11:38:44.723 DEBUG 7416 --- [http-nio-8080-exec-5] c.tedu.mapper.ItemPageMapper.selectPage  : <==      Total: 2
+2020-11-19 11:38:45.899 DEBUG 7416 --- [http-nio-8080-exec-3] c.t.m.ItemPageMapper.selectPage_COUNT    : ==>  Preparing: SELECT count(0) FROM item
+2020-11-19 11:38:45.899 DEBUG 7416 --- [http-nio-8080-exec-3] c.t.m.ItemPageMapper.selectPage_COUNT    : ==> Parameters: 
+2020-11-19 11:38:45.900 DEBUG 7416 --- [http-nio-8080-exec-3] c.t.m.ItemPageMapper.selectPage_COUNT    : <==      Total: 1
+2020-11-19 11:38:45.901 DEBUG 7416 --- [http-nio-8080-exec-3] c.tedu.mapper.ItemPageMapper.selectPage  : ==>  Preparing: select item_id, category_id, item_name, item_price, item_desc, item_image from item LIMIT ?, ?
+2020-11-19 11:38:45.902 DEBUG 7416 --- [http-nio-8080-exec-3] c.tedu.mapper.ItemPageMapper.selectPage  : ==> Parameters: 2(Integer), 2(Integer)
+2020-11-19 11:38:45.903 DEBUG 7416 --- [http-nio-8080-exec-3] c.tedu.mapper.ItemPageMapper.selectPage  : <==      Total: 2
+2020-11-19 11:38:47.383 DEBUG 7416 --- [http-nio-8080-exec-6] c.t.m.ItemPageMapper.selectPage_COUNT    : ==>  Preparing: SELECT count(0) FROM item
+2020-11-19 11:38:47.384 DEBUG 7416 --- [http-nio-8080-exec-6] c.t.m.ItemPageMapper.selectPage_COUNT    : ==> Parameters: 
+2020-11-19 11:38:47.385 DEBUG 7416 --- [http-nio-8080-exec-6] c.t.m.ItemPageMapper.selectPage_COUNT    : <==      Total: 1
+2020-11-19 11:38:47.386 DEBUG 7416 --- [http-nio-8080-exec-6] c.tedu.mapper.ItemPageMapper.selectPage  : ==>  Preparing: select item_id, category_id, item_name, item_price, item_desc, item_image from item LIMIT ?, ?
+2020-11-19 11:38:47.386 DEBUG 7416 --- [http-nio-8080-exec-6] c.tedu.mapper.ItemPageMapper.selectPage  : ==> Parameters: 4(Integer), 2(Integer)
+2020-11-19 11:38:47.388 DEBUG 7416 --- [http-nio-8080-exec-6] c.tedu.mapper.ItemPageMapper.selectPage  : <==      Total: 1
+2020-11-19 11:38:48.926 DEBUG 7416 --- [http-nio-8080-exec-4] c.t.m.ItemPageMapper.selectPage_COUNT    : ==>  Preparing: SELECT count(0) FROM item
+2020-11-19 11:38:48.926 DEBUG 7416 --- [http-nio-8080-exec-4] c.t.m.ItemPageMapper.selectPage_COUNT    : ==> Parameters: 
+2020-11-19 11:38:48.927 DEBUG 7416 --- [http-nio-8080-exec-4] c.t.m.ItemPageMapper.selectPage_COUNT    : <==      Total: 1
+2020-11-19 11:38:48.928 DEBUG 7416 --- [http-nio-8080-exec-4] c.tedu.mapper.ItemPageMapper.selectPage  : ==>  Preparing: select item_id, category_id, item_name, item_price, item_desc, item_image from item LIMIT ?
+2020-11-19 11:38:48.929 DEBUG 7416 --- [http-nio-8080-exec-4] c.tedu.mapper.ItemPageMapper.selectPage  : ==> Parameters: 2(Integer)
+2020-11-19 11:38:48.930 DEBUG 7416 --- [http-nio-8080-exec-4] c.tedu.mapper.ItemPageMapper.selectPage  : <==      Total: 2
+2020-11-19 11:40:21.784 DEBUG 7416 --- [http-nio-8080-exec-9] c.t.m.ItemPageMapper.selectPage_COUNT    : ==>  Preparing: SELECT count(0) FROM item
+2020-11-19 11:40:21.785 DEBUG 7416 --- [http-nio-8080-exec-9] c.t.m.ItemPageMapper.selectPage_COUNT    : ==> Parameters: 
+2020-11-19 11:40:21.786 DEBUG 7416 --- [http-nio-8080-exec-9] c.t.m.ItemPageMapper.selectPage_COUNT    : <==      Total: 1
+2020-11-19 11:40:21.788 DEBUG 7416 --- [http-nio-8080-exec-9] c.tedu.mapper.ItemPageMapper.selectPage  : ==>  Preparing: select item_id, category_id, item_name, item_price, item_desc, item_image from item LIMIT ?
+2020-11-19 11:40:21.788 DEBUG 7416 --- [http-nio-8080-exec-9] c.tedu.mapper.ItemPageMapper.selectPage  : ==> Parameters: 2(Integer)
+2020-11-19 11:40:21.789 DEBUG 7416 --- [http-nio-8080-exec-9] c.tedu.mapper.ItemPageMapper.selectPage  : <==      Total: 2
+2020-11-19 11:41:14.476 DEBUG 7416 --- [http-nio-8080-exec-1] c.t.m.ItemPageMapper.selectPage_COUNT    : ==>  Preparing: SELECT count(0) FROM item
+2020-11-19 11:41:14.476 DEBUG 7416 --- [http-nio-8080-exec-1] c.t.m.ItemPageMapper.selectPage_COUNT    : ==> Parameters: 
+2020-11-19 11:41:14.477 DEBUG 7416 --- [http-nio-8080-exec-1] c.t.m.ItemPageMapper.selectPage_COUNT    : <==      Total: 1
+2020-11-19 11:41:14.478 DEBUG 7416 --- [http-nio-8080-exec-1] c.tedu.mapper.ItemPageMapper.selectPage  : ==>  Preparing: select item_id, category_id, item_name, item_price, item_desc, item_image from item LIMIT ?
+2020-11-19 11:41:14.478 DEBUG 7416 --- [http-nio-8080-exec-1] c.tedu.mapper.ItemPageMapper.selectPage  : ==> Parameters: 2(Integer)
+2020-11-19 11:41:14.479 DEBUG 7416 --- [http-nio-8080-exec-1] c.tedu.mapper.ItemPageMapper.selectPage  : <==      Total: 2
+2020-11-19 11:41:16.094 DEBUG 7416 --- [http-nio-8080-exec-2] c.t.m.ItemPageMapper.selectPage_COUNT    : ==>  Preparing: SELECT count(0) FROM item
+2020-11-19 11:41:16.094 DEBUG 7416 --- [http-nio-8080-exec-2] c.t.m.ItemPageMapper.selectPage_COUNT    : ==> Parameters: 
+2020-11-19 11:41:16.095 DEBUG 7416 --- [http-nio-8080-exec-2] c.t.m.ItemPageMapper.selectPage_COUNT    : <==      Total: 1
+2020-11-19 11:41:16.096 DEBUG 7416 --- [http-nio-8080-exec-2] c.tedu.mapper.ItemPageMapper.selectPage  : ==>  Preparing: select item_id, category_id, item_name, item_price, item_desc, item_image from item LIMIT ?, ?
+2020-11-19 11:41:16.096 DEBUG 7416 --- [http-nio-8080-exec-2] c.tedu.mapper.ItemPageMapper.selectPage  : ==> Parameters: 2(Integer), 2(Integer)
+2020-11-19 11:41:16.097 DEBUG 7416 --- [http-nio-8080-exec-2] c.tedu.mapper.ItemPageMapper.selectPage  : <==      Total: 2
+2020-11-19 11:41:17.827 DEBUG 7416 --- [http-nio-8080-exec-7] c.t.m.ItemPageMapper.selectPage_COUNT    : ==>  Preparing: SELECT count(0) FROM item
+2020-11-19 11:41:17.828 DEBUG 7416 --- [http-nio-8080-exec-7] c.t.m.ItemPageMapper.selectPage_COUNT    : ==> Parameters: 
+2020-11-19 11:41:17.829 DEBUG 7416 --- [http-nio-8080-exec-7] c.t.m.ItemPageMapper.selectPage_COUNT    : <==      Total: 1
+2020-11-19 11:41:17.830 DEBUG 7416 --- [http-nio-8080-exec-7] c.tedu.mapper.ItemPageMapper.selectPage  : ==>  Preparing: select item_id, category_id, item_name, item_price, item_desc, item_image from item LIMIT ?, ?
+2020-11-19 11:41:17.830 DEBUG 7416 --- [http-nio-8080-exec-7] c.tedu.mapper.ItemPageMapper.selectPage  : ==> Parameters: 4(Integer), 2(Integer)
+2020-11-19 11:41:17.831 DEBUG 7416 --- [http-nio-8080-exec-7] c.tedu.mapper.ItemPageMapper.selectPage  : <==      Total: 1
+2020-11-19 11:41:19.564 DEBUG 7416 --- [http-nio-8080-exec-5] c.t.m.ItemPageMapper.selectPage_COUNT    : ==>  Preparing: SELECT count(0) FROM item
+2020-11-19 11:41:19.564 DEBUG 7416 --- [http-nio-8080-exec-5] c.t.m.ItemPageMapper.selectPage_COUNT    : ==> Parameters: 
+2020-11-19 11:41:19.565 DEBUG 7416 --- [http-nio-8080-exec-5] c.t.m.ItemPageMapper.selectPage_COUNT    : <==      Total: 1
+2020-11-19 11:41:19.565 DEBUG 7416 --- [http-nio-8080-exec-5] c.tedu.mapper.ItemPageMapper.selectPage  : ==>  Preparing: select item_id, category_id, item_name, item_price, item_desc, item_image from item LIMIT ?, ?
+2020-11-19 11:41:19.566 DEBUG 7416 --- [http-nio-8080-exec-5] c.tedu.mapper.ItemPageMapper.selectPage  : ==> Parameters: 2(Integer), 2(Integer)
+2020-11-19 11:41:19.567 DEBUG 7416 --- [http-nio-8080-exec-5] c.tedu.mapper.ItemPageMapper.selectPage  : <==      Total: 2
+2020-11-19 11:41:21.027 DEBUG 7416 --- [http-nio-8080-exec-3] c.t.m.ItemPageMapper.selectPage_COUNT    : ==>  Preparing: SELECT count(0) FROM item
+2020-11-19 11:41:21.027 DEBUG 7416 --- [http-nio-8080-exec-3] c.t.m.ItemPageMapper.selectPage_COUNT    : ==> Parameters: 
+2020-11-19 11:41:21.028 DEBUG 7416 --- [http-nio-8080-exec-3] c.t.m.ItemPageMapper.selectPage_COUNT    : <==      Total: 1
+2020-11-19 11:41:21.028 DEBUG 7416 --- [http-nio-8080-exec-3] c.tedu.mapper.ItemPageMapper.selectPage  : ==>  Preparing: select item_id, category_id, item_name, item_price, item_desc, item_image from item LIMIT ?
+2020-11-19 11:41:21.029 DEBUG 7416 --- [http-nio-8080-exec-3] c.tedu.mapper.ItemPageMapper.selectPage  : ==> Parameters: 2(Integer)
+2020-11-19 11:41:21.030 DEBUG 7416 --- [http-nio-8080-exec-3] c.tedu.mapper.ItemPageMapper.selectPage  : <==      Total: 2
+2020-11-19 13:49:06.854  WARN 7416 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=43m15s375ms824µs200ns).
+2020-11-19 14:03:27.267 DEBUG 7416 --- [http-nio-8080-exec-9] c.t.m.ItemPageMapper.selectPage_COUNT    : ==>  Preparing: SELECT count(0) FROM item
+2020-11-19 14:03:27.267 DEBUG 7416 --- [http-nio-8080-exec-9] c.t.m.ItemPageMapper.selectPage_COUNT    : ==> Parameters: 
+2020-11-19 14:03:27.269 DEBUG 7416 --- [http-nio-8080-exec-9] c.t.m.ItemPageMapper.selectPage_COUNT    : <==      Total: 1
+2020-11-19 14:03:27.269 DEBUG 7416 --- [http-nio-8080-exec-9] c.tedu.mapper.ItemPageMapper.selectPage  : ==>  Preparing: select item_id, category_id, item_name, item_price, item_desc, item_image from item LIMIT ?
+2020-11-19 14:03:27.270 DEBUG 7416 --- [http-nio-8080-exec-9] c.tedu.mapper.ItemPageMapper.selectPage  : ==> Parameters: 2(Integer)
+2020-11-19 14:03:27.271 DEBUG 7416 --- [http-nio-8080-exec-9] c.tedu.mapper.ItemPageMapper.selectPage  : <==      Total: 2
